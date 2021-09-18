@@ -33,7 +33,7 @@ ul.menulog  li > a:hover {
 }
 #logo {
     width: 7%;
-    
+    overflow: hidden;
 }
 #search {
     width: 65%;
@@ -47,8 +47,9 @@ ul.menulog  li > a:hover {
 }
 #logo > img {
     display:  block;
-    width: 100%;
-    height: 100%;
+    width: 180%;
+    margin-left: -30px;
+    margin-top: -20px;
 }
 .mainmenus {
     z-index: 100;
