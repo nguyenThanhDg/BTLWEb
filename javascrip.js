@@ -126,33 +126,6 @@ $(document).ready(function(){
             demtang5--;
         }
     }) 
-    var demtang6 = 0;
-    $(".prev6").hide()
-    $(".next6").click(function(){
-        demtang6++
-        $(".prev6").show()
-        if(demtang6 == 1)
-        $(".list6").css('marginLeft','-100%')
-        if(demtang6 == 2)
-        {
-        $(".list6").css('marginLeft','-200%')
-        $(".next6").hide();
-        }
-    })
-    $('.prev6').click(function(){
-        $(".next6").show()
-        if(demtang6 == 1)
-        {
-            $('.list6').css('marginLeft','0%')
-            demtang6--;
-            $('.prev6').hide();
-        }
-        if(demtang6 == 2)
-        {
-            $('.list6').css('marginLeft','-100%')
-            demtang6--;
-        }
-    })
     $(window).scroll(function(){
         if ($(this).scrollTop() >= 150)
             $("#gototop").show()
