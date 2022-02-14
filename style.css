@@ -25,11 +25,18 @@ ul.menulog  li > a:hover {
     color: #ff6500;
 }
 #textbox {
-    width: 350px;
+    width: 450px;
     height: 30px;
     display: inline;
-    margin: 25px 250px;
+    margin: 25px 400px;
     border-radius: 10px;
+}
+#btnsearch{
+    margin-top: 27px;
+    width: 42px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 #logo {
     width: 7%;
@@ -157,6 +164,7 @@ ul.chi-menu > li > a:hover {
 }
 .next img {
     width: 100%;
+    border-radius: 50%;
     cursor: pointer;
 }
 .prev {
