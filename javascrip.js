@@ -187,5 +187,20 @@ $(document).ready(function(){
         }
     })
     
+    $("#btnsearch").click(function(){
+        var kq = ""
+        var k = $("#textbox").val()
+        var h = $(".category-content span")
+        for (var i = 0; i < h.length; i++)
+        {
+            if (h[i].innerText.indexOf(k) >= 0)
+                kq = kq + (h[i].innerText) + "\n"
+        }
+        
+        if (kq != "")
+            window.alert("Kết quả cần tìm :" + "\n" + kq)
+        else
+            window.alert("Không có phim cần tìm")
+    })
 });
 
